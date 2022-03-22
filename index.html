@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='style4.css' />
+    <title>Document</title>
+</head>
+<body>
+    <div class="back">
+    <div class="h1">
+        <h1>Formularz</h1> 
+    </div>   
+    <form>
+        <div class="row">
+            <label for="imie">Imię:</label><br>
+		    <input type="text" id="imie" name="imie"><br>
+        </div>
+        <div class="row">
+            <label for="nazwisko">Nazwisko:</label><br>
+		    <input type="text" id="nazwisko" name="nazwisko"><br>
+        </div>
+        <div class="row">
+            <label for="miasto">Miasto:</label><br>
+		    <input type="text" id="miasto" name="miasto"><br>
+        </div>
+        <div class="row">
+            <label for="ulica">Ulica:</label><br>
+		    <input type="text" id="ulica" name="ulica"><br>
+        </div>       
+        <div class="row">
+            <label for="nrdomu">Nr. domu:</label><br>
+		    <input type="text" id="nrdomu" name="nrdomu"><br>
+        </div>
+        <div class="row">
+            <label for="mieszkanie">Nr. mieszkania:</label><br>
+		    <input type="text" id="mieszkanie" name="mieszkanie"><br>
+        </div>
+        <div class="row">
+            <label for="data">Data ur:</label><br>	
+		    <input type="date" id="data" name="data"><br>
+        </div>
+        <div class="row">
+            <label>Prawko:</label><br>	            
+		    <input type="radio" id="tak" name="posiadanie" value="TAK">
+		    <label for="tak">TAK</label>
+		    <input type="radio" id="nie" name="posiadanie" value="NIE">
+		    <label for="nie">NIE</label>
+        </div>   
+        <div class="row">
+            <label>Plec:</label><br>            
+		    <input type="radio" id="kobieta" name="plec" value="kobieta">
+		    <label for="kobieta">kobieta</label>
+		    <input type="radio" id="mezczyzna" name="plec" value="mężczyzna">
+		    <label for="mezczyzna">mężczyzna</label>
+        </div>
+        <div class="row">
+            <label for="telefon">Nr. telefonu</label><br>
+		    <input type="tel" id="telefon" name="telefon"><br>
+        </div>
+        <div class="row">
+            <label>Uwagi</label><br>
+		    <textarea name="uwagi" rows="10" cols="30"></textarea><br>
+		    <input type="button" name="p1" value="OK">
+		    <input type="reset" name="p2" value="Czyść">
+		    <input type="submit" name="p3" value="Wyślij">
+		    <input type="hidden" name="ukryte" value="0">
+        </div>
+        
+    </form> 
+    </div>
+</body>
+</html>
